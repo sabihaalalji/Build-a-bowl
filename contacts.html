@@ -5,11 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact Build-A-Bowl to ask questions, place an order, request catering, or share feedback.">
     <title>Contact Page</title>
-    <link rel="stylesheet" href="style.css">
+   <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #fffaf5;
+        color: #333;
+        margin: 0;
+    }
+
+    nav {
+        padding: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+
+    img, video {
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        margin-top: 40px;
+        padding: 30px 20px;
+        text-align: center;
+        background-color: #333;
+        color: white;
+    }
+
+    footer a {
+        color: white;
+    }
+
+    @media (max-width: 600px) {
+        nav a {
+            display: block;
+            margin: 10px 0;
+        }
+    }
+</style>
 </head>
 <body>
      <nav aria-label="Main navigation"></nav><a href="index.html">Home Page</a>   &nbsp;&nbsp;&nbsp; <a href="about.html">About</a>   &nbsp;&nbsp;&nbsp; <a href="menu.html">Menu</a>   &nbsp;&nbsp;&nbsp; <a href="Buildyourbowl.html">Build your bowl</a>   &nbsp;&nbsp;&nbsp; <a href="contacts.html">contacts</a></nav>
-    <h2>Get in touch</h2>
+    <h1>Get in touch</h1>
     <p>Have a question, want to place an order, or just craving a bowl? We’d love to hear from you!</p>
     <form><label for="name">Name:</label>
      <input type="text" id="name" name="name" required> <br><br>
