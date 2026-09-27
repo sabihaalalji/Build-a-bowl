@@ -1,0 +1,9 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf5;
+    color: #333;
+}nav {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
